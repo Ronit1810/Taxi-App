@@ -1,3 +1,4 @@
+import Booking from '@/components/Booking/Booking'
 import Image from 'next/image'
 
 
@@ -6,7 +7,10 @@ export default function Home() {
     
     <div>
       
-      <h1 className=' font-font01 text-5xl'>Hello</h1>
+      <div className=' grid grid-cols-1 md:grid-cols-3 h-[85vh]'>
+        <div className=''><Booking/> </div>
+        <div className=' col-span-2 '>Map</div>
+      </div>
       
     </div>
   )
